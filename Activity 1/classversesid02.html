@@ -1,49 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>class verses id</title>
+	<title>Testing Animation with animate.css</title>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+	<a href=# class = "topbar animated fadeIn"> Topbar </a>
 
 	<style>
-		<div{
-			height:100px;
-			width:100px;
-			background-color:red;
+		body {
+			margin: 50;
+  			font-size: 28px;
+  			font-family: Arial, Helvetica, sans-serif;
+  			text-align: center;
 		}
-
-		#div1{
-			height:100px;
-			width:100px;
-			background-color:blue;
+		a.topbar{
+			float: left;
+  			display: block;
+  			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+			-webkit-animation-duration: 1s;
+			
 		}
-
-		#div1:hover{
-			height:100px;
-			width:100px;
-			background-color:red;
-		}
-
-		.divc {
-			width:150px;
-			background-color: orange;
-		}
-
 	</style>
 
-</head>
-
-<body>
-
-	<div style = "background-color: green">
-	</div>
-
-	<div class="divc">
-	</div>
-
-	<div id="div1">
-	</div>
-
-	<div class="divc">
-	</div>
 
 </body>
 </html>
